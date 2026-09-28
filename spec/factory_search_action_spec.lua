@@ -23,20 +23,19 @@ describe("FactorySearchAction", function()
     it("maps a recipe to its main product", function()
       _G.prototypes = {
         recipe = {
-          ["advanced-oil-processing"] = {
-            main_product = { type = "fluid", name = "petroleum-gas" },
+          ["cryogenic-science-pack"] = {
+            main_product = { type = "item", name = "cryogenic-science-pack" },
             products = {
-              { type = "fluid", name = "heavy-oil" },
-              { type = "fluid", name = "light-oil" },
-              { type = "fluid", name = "petroleum-gas" },
+              { type = "item", name = "cryogenic-science-pack" },
+              { type = "fluid", name = "fluoroketone-hot" },
             },
           },
         },
       }
 
       assert.are.same(
-        { type = "fluid", name = "petroleum-gas" },
-        FactorySearchAction.resolve_signal({ type = "recipe", id = "advanced-oil-processing" })
+        { type = "item", name = "cryogenic-science-pack" },
+        FactorySearchAction.resolve_signal({ type = "recipe", id = "cryogenic-science-pack" })
       )
     end)
 
