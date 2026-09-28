@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "title": "Quidquid: Factory Search",
   "author": "sakuro",
-  "description": "Quidquid Factory Search",
+  "description": "Adds a Quidquid palette action that opens Factory Search for the selected item, fluid, recipe or resource.",
   "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.1"
+    "base >= 2.1",
+    "quidquid >= 0.8.0",
+    "FactorySearch >= 1.15.0"
   ]
 }
