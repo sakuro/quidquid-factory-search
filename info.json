@@ -1,6 +1,6 @@
 {
   "name": "quidquid-factory-search",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "title": "Quidquid: Factory Search",
   "author": "sakuro",
   "description": "Adds a Quidquid palette action that opens Factory Search for the selected item, fluid, recipe or resource.",
