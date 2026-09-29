@@ -12,3 +12,5 @@ by what mining it yields. The key can be rebound in Factorio's control
 settings.
 
 Requires Quidquid and Factory Search.
+
+Resource patches appear in the palette with [Quidquid: Resources](https://mods.factorio.com/mod/quidquid-resources); since Quidquid 0.10.0 they are no longer built in.
